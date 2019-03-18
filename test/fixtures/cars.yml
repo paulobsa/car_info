@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  manufacturer: one
+  model: MyString
+  launch_date: 2019-03-18
+  transmission: 1
+
+two:
+  manufacturer: two
+  model: MyString
+  launch_date: 2019-03-18
+  transmission: 1
