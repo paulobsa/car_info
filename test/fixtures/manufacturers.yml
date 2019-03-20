@@ -1,13 +1,37 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  name: MyString
+fiat:
+  name: Fiat
   foundation: 2019-03-18
-  country: MyString
-  city: MyString
+  country: Italy
+  city: Milan
 
-two:
-  name: MyString
+audi:
+  name: Audio
   foundation: 2019-03-18
-  country: MyString
-  city: MyString
+  country: Germany
+  city: Frankfurt
+
+name_blank:
+  name:
+  foundation: 2019-03-18
+  country: Germany
+  city: Frankfurt
+
+foundation_blank:
+  name: Audio
+  foundation:
+  country: Germany
+  city: Frankfurt
+
+country_blank:
+  name: Audio
+  foundation:
+  country:
+  city: Frankfurt
+
+city_blank:
+  name: Audio
+  foundation: 2019-03-18
+  country: Germany
+  city:

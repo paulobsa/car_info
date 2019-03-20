@@ -1,13 +1,37 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  manufacturer: one
-  model: MyString
+uno:
+  manufacturer: fiat
+  model: uno
   launch_date: 2019-03-18
-  transmission: 1
+  transmission: MT
 
-two:
-  manufacturer: two
-  model: MyString
+a3:
+  manufacturer: audi
+  model: a3
   launch_date: 2019-03-18
-  transmission: 1
+  transmission: AT
+
+manufactrer_blank:
+  manufacturer:
+  model: a3
+  launch_date: 2019-03-18
+  transmission: AT
+
+model_blank:
+  manufacturer: audi
+  model:
+  launch_date: 2019-03-18
+  transmission: AT
+
+launch_date_blank:
+  manufacturer: audi
+  model: a3
+  launch_date:
+  transmission: AT
+
+transmission_blank:
+  manufacturer: audi
+  model: a3
+  launch_date: 2019-03-18
+  transmission:

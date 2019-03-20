@@ -14,29 +14,29 @@ class ManufacturersController < ApplicationController
   end
 
   # POST /manufacturers
-  def create
-    @manufacturer = Manufacturer.new(manufacturer_params)
+  # def create
+  #   @manufacturer = Manufacturer.new(manufacturer_params)
 
-    if @manufacturer.save
-      render json: @manufacturer, status: :created, location: @manufacturer
-    else
-      render json: @manufacturer.errors, status: :unprocessable_entity
-    end
-  end
+  #   if @manufacturer.save
+  #     render json: @manufacturer, status: :created, location: @manufacturer
+  #   else
+  #     render json: @manufacturer.errors, status: :unprocessable_entity
+  #   end
+  # end
 
   # PATCH/PUT /manufacturers/1
-  def update
-    if @manufacturer.update(manufacturer_params)
-      render json: @manufacturer
-    else
-      render json: @manufacturer.errors, status: :unprocessable_entity
-    end
-  end
+  # def update
+  #   if @manufacturer.update(manufacturer_params)
+  #     render json: @manufacturer
+  #   else
+  #     render json: @manufacturer.errors, status: :unprocessable_entity
+  #   end
+  # end
 
   # DELETE /manufacturers/1
-  def destroy
-    @manufacturer.destroy
-  end
+  # def destroy
+  #   @manufacturer.destroy
+  # end
 
   private
     # Use callbacks to share common setup or constraints between actions.

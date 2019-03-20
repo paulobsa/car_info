@@ -5,3 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+70.times do
+  manufacturer = Manufacturer.new
+  manufacturer.name = Faker::Vehicle.manufacture
+  manufacturer.foundation = Faker::Date.between_except(50.year.ago, 1.year.from_now, Date.today)
+  manufacturer.country = Faker::Address.country
+  manufacturer.city = Faker::Address.city
+  manufacturer.save
+end
